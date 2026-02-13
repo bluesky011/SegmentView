@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A974CEF7E4951DD080F3100 /* Pods_SegmentView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8721EBE7535BBBC42A68FBC1 /* Pods_SegmentView.framework */; };
+		8117FE652E38C80500E7BD05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8117FE582E38C80500E7BD05 /* AppDelegate.m */; };
+		8117FE662E38C80500E7BD05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8117FE5D2E38C80500E7BD05 /* main.m */; };
+		8117FE682E38C80500E7BD05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8117FE632E38C80500E7BD05 /* ViewController.m */; };
+		8117FE692E38C80500E7BD05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8117FE592E38C80500E7BD05 /* Assets.xcassets */; };
+		8117FE6B2E38C80500E7BD05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8117FE5C2E38C80500E7BD05 /* LaunchScreen.storyboard */; };
+		8117FE6C2E38C80500E7BD05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8117FE5F2E38C80500E7BD05 /* Main.storyboard */; };
+		8117FE702E38CD9100E7BD05 /* SegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8117FE6F2E38CD9100E7BD05 /* SegmentView.m */; };
+		81BD9BC52E39DD2000769A95 /* UIView+WPFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BD9BC42E39DD2000769A95 /* UIView+WPFExtension.m */; };
+		81BD9BCA2E39E13500769A95 /* UIView+ITTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BD9BC92E39E13500769A95 /* UIView+ITTAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B661FA00884A87B09910F86 /* Pods-SegmentView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentView.debug.xcconfig"; path = "Target Support Files/Pods-SegmentView/Pods-SegmentView.debug.xcconfig"; sourceTree = "<group>"; };
+		8117FE3A2E38C66900E7BD05 /* SegmentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8117FE572E38C80500E7BD05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8117FE582E38C80500E7BD05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8117FE592E38C80500E7BD05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8117FE5A2E38C80500E7BD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8117FE5B2E38C80500E7BD05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8117FE5D2E38C80500E7BD05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8117FE5E2E38C80500E7BD05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8117FE622E38C80500E7BD05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8117FE632E38C80500E7BD05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8117FE6E2E38CD9100E7BD05 /* SegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentView.h; sourceTree = "<group>"; };
+		8117FE6F2E38CD9100E7BD05 /* SegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentView.m; sourceTree = "<group>"; };
+		81BD9BBE2E39D66300769A95 /* SegmentView-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SegmentView-PrefixHeader.pch"; sourceTree = "<group>"; };
+		81BD9BC02E39D77600769A95 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		81BD9BC32E39DD2000769A95 /* UIView+WPFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WPFExtension.h"; sourceTree = "<group>"; };
+		81BD9BC42E39DD2000769A95 /* UIView+WPFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WPFExtension.m"; sourceTree = "<group>"; };
+		81BD9BC82E39E13500769A95 /* UIView+ITTAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ITTAdditions.h"; sourceTree = "<group>"; };
+		81BD9BC92E39E13500769A95 /* UIView+ITTAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ITTAdditions.m"; sourceTree = "<group>"; };
+		8721EBE7535BBBC42A68FBC1 /* Pods_SegmentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SegmentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88573931BF3A50483B2B145 /* Pods-SegmentView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentView.release.xcconfig"; path = "Target Support Files/Pods-SegmentView/Pods-SegmentView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8117FE372E38C66900E7BD05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A974CEF7E4951DD080F3100 /* Pods_SegmentView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51F5131A2D4EB15816428615 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B661FA00884A87B09910F86 /* Pods-SegmentView.debug.xcconfig */,
+				A88573931BF3A50483B2B145 /* Pods-SegmentView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8117FE312E38C66900E7BD05 = {
+			isa = PBXGroup;
+			children = (
+				8117FE642E38C80500E7BD05 /* SegmentView */,
+				8117FE3B2E38C66900E7BD05 /* Products */,
+				51F5131A2D4EB15816428615 /* Pods */,
+				A8BB2B0BF38C2DC5692CF3B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8117FE3B2E38C66900E7BD05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8117FE3A2E38C66900E7BD05 /* SegmentView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8117FE642E38C80500E7BD05 /* SegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				81BD9BBD2E39D5CB00769A95 /* Config */,
+				81BD9BC12E39DCC300769A95 /* Tool */,
+				8117FE572E38C80500E7BD05 /* AppDelegate.h */,
+				8117FE582E38C80500E7BD05 /* AppDelegate.m */,
+				8117FE592E38C80500E7BD05 /* Assets.xcassets */,
+				8117FE5A2E38C80500E7BD05 /* Info.plist */,
+				8117FE5C2E38C80500E7BD05 /* LaunchScreen.storyboard */,
+				8117FE5D2E38C80500E7BD05 /* main.m */,
+				8117FE5F2E38C80500E7BD05 /* Main.storyboard */,
+				8117FE622E38C80500E7BD05 /* ViewController.h */,
+				8117FE632E38C80500E7BD05 /* ViewController.m */,
+				8117FE6E2E38CD9100E7BD05 /* SegmentView.h */,
+				8117FE6F2E38CD9100E7BD05 /* SegmentView.m */,
+			);
+			path = SegmentView;
+			sourceTree = "<group>";
+		};
+		81BD9BBD2E39D5CB00769A95 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				81BD9BBE2E39D66300769A95 /* SegmentView-PrefixHeader.pch */,
+				81BD9BC02E39D77600769A95 /* Config.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		81BD9BC12E39DCC300769A95 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				81BD9BC22E39DCFE00769A95 /* UIView */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		81BD9BC22E39DCFE00769A95 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				81BD9BC32E39DD2000769A95 /* UIView+WPFExtension.h */,
+				81BD9BC42E39DD2000769A95 /* UIView+WPFExtension.m */,
+				81BD9BC82E39E13500769A95 /* UIView+ITTAdditions.h */,
+				81BD9BC92E39E13500769A95 /* UIView+ITTAdditions.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		A8BB2B0BF38C2DC5692CF3B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8721EBE7535BBBC42A68FBC1 /* Pods_SegmentView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8117FE392E38C66900E7BD05 /* SegmentView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8117FE522E38C66A00E7BD05 /* Build configuration list for PBXNativeTarget "SegmentView" */;
+			buildPhases = (
+				234A4EFB2E5BDD885300D683 /* [CP] Check Pods Manifest.lock */,
+				8117FE362E38C66900E7BD05 /* Sources */,
+				8117FE372E38C66900E7BD05 /* Frameworks */,
+				8117FE382E38C66900E7BD05 /* Resources */,
+				E7BFC493AF379DDFCDC4CB15 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SegmentView;
+			productName = SegmentView;
+			productReference = 8117FE3A2E38C66900E7BD05 /* SegmentView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8117FE322E38C66900E7BD05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8117FE392E38C66900E7BD05 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 8117FE352E38C66900E7BD05 /* Build configuration list for PBXProject "SegmentView" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8117FE312E38C66900E7BD05;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8117FE3B2E38C66900E7BD05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8117FE392E38C66900E7BD05 /* SegmentView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8117FE382E38C66900E7BD05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8117FE692E38C80500E7BD05 /* Assets.xcassets in Resources */,
+				8117FE6B2E38C80500E7BD05 /* LaunchScreen.storyboard in Resources */,
+				8117FE6C2E38C80500E7BD05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		234A4EFB2E5BDD885300D683 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SegmentView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7BFC493AF379DDFCDC4CB15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SegmentView/Pods-SegmentView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SegmentView/Pods-SegmentView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SegmentView/Pods-SegmentView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8117FE362E38C66900E7BD05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8117FE652E38C80500E7BD05 /* AppDelegate.m in Sources */,
+				8117FE662E38C80500E7BD05 /* main.m in Sources */,
+				81BD9BCA2E39E13500769A95 /* UIView+ITTAdditions.m in Sources */,
+				8117FE702E38CD9100E7BD05 /* SegmentView.m in Sources */,
+				81BD9BC52E39DD2000769A95 /* UIView+WPFExtension.m in Sources */,
+				8117FE682E38C80500E7BD05 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8117FE5C2E38C80500E7BD05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8117FE5B2E38C80500E7BD05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8117FE5F2E38C80500E7BD05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8117FE5E2E38C80500E7BD05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8117FE532E38C66A00E7BD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B661FA00884A87B09910F86 /* Pods-SegmentView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SegmentView/Config/SegmentView-PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SegmentView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linyansen.SegmentView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8117FE542E38C66A00E7BD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88573931BF3A50483B2B145 /* Pods-SegmentView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SegmentView/Config/SegmentView-PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SegmentView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linyansen.SegmentView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8117FE552E38C66A00E7BD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8117FE562E38C66A00E7BD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8117FE352E38C66900E7BD05 /* Build configuration list for PBXProject "SegmentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8117FE552E38C66A00E7BD05 /* Debug */,
+				8117FE562E38C66A00E7BD05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8117FE522E38C66A00E7BD05 /* Build configuration list for PBXNativeTarget "SegmentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8117FE532E38C66A00E7BD05 /* Debug */,
+				8117FE542E38C66A00E7BD05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8117FE322E38C66900E7BD05 /* Project object */;
+}

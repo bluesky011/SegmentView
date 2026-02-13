@@ -1,0 +1,19 @@
+//
+//  SegmentView-PrefixHeader.pch
+//  SegmentView
+//
+//  Created by linyansen on 2025/7/30.
+//
+
+#ifndef SegmentView_PrefixHeader_pch
+#define SegmentView_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Config.h"
+#import "UIView+WPFExtension.h"
+#import "UIView+ITTAdditions.h"
+#import <Masonry/Masonry.h>
+
+#endif /* SegmentView_PrefixHeader_pch */
