@@ -14,7 +14,7 @@
 		8117FE692E38C80500E7BD05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8117FE592E38C80500E7BD05 /* Assets.xcassets */; };
 		8117FE6B2E38C80500E7BD05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8117FE5C2E38C80500E7BD05 /* LaunchScreen.storyboard */; };
 		8117FE6C2E38C80500E7BD05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8117FE5F2E38C80500E7BD05 /* Main.storyboard */; };
-		8117FE702E38CD9100E7BD05 /* SegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8117FE6F2E38CD9100E7BD05 /* SegmentView.m */; };
+		819598D23015F9DF004BD67A /* SegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 819598D03015F9DF004BD67A /* SegmentView.m */; };
 		81BD9BC52E39DD2000769A95 /* UIView+WPFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BD9BC42E39DD2000769A95 /* UIView+WPFExtension.m */; };
 		81BD9BCA2E39E13500769A95 /* UIView+ITTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BD9BC92E39E13500769A95 /* UIView+ITTAdditions.m */; };
 /* End PBXBuildFile section */
@@ -31,8 +31,8 @@
 		8117FE5E2E38C80500E7BD05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8117FE622E38C80500E7BD05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8117FE632E38C80500E7BD05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8117FE6E2E38CD9100E7BD05 /* SegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentView.h; sourceTree = "<group>"; };
-		8117FE6F2E38CD9100E7BD05 /* SegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentView.m; sourceTree = "<group>"; };
+		819598CF3015F9DF004BD67A /* SegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentView.h; sourceTree = "<group>"; };
+		819598D03015F9DF004BD67A /* SegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentView.m; sourceTree = "<group>"; };
 		81BD9BBE2E39D66300769A95 /* SegmentView-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SegmentView-PrefixHeader.pch"; sourceTree = "<group>"; };
 		81BD9BC02E39D77600769A95 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		81BD9BC32E39DD2000769A95 /* UIView+WPFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WPFExtension.h"; sourceTree = "<group>"; };
@@ -85,6 +85,7 @@
 		8117FE642E38C80500E7BD05 /* SegmentView */ = {
 			isa = PBXGroup;
 			children = (
+				819598D13015F9DF004BD67A /* SegmentView */,
 				81BD9BBD2E39D5CB00769A95 /* Config */,
 				81BD9BC12E39DCC300769A95 /* Tool */,
 				8117FE572E38C80500E7BD05 /* AppDelegate.h */,
@@ -96,8 +97,15 @@
 				8117FE5F2E38C80500E7BD05 /* Main.storyboard */,
 				8117FE622E38C80500E7BD05 /* ViewController.h */,
 				8117FE632E38C80500E7BD05 /* ViewController.m */,
-				8117FE6E2E38CD9100E7BD05 /* SegmentView.h */,
-				8117FE6F2E38CD9100E7BD05 /* SegmentView.m */,
+			);
+			path = SegmentView;
+			sourceTree = "<group>";
+		};
+		819598D13015F9DF004BD67A /* SegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				819598CF3015F9DF004BD67A /* SegmentView.h */,
+				819598D03015F9DF004BD67A /* SegmentView.m */,
 			);
 			path = SegmentView;
 			sourceTree = "<group>";
@@ -256,8 +264,8 @@
 				8117FE652E38C80500E7BD05 /* AppDelegate.m in Sources */,
 				8117FE662E38C80500E7BD05 /* main.m in Sources */,
 				81BD9BCA2E39E13500769A95 /* UIView+ITTAdditions.m in Sources */,
-				8117FE702E38CD9100E7BD05 /* SegmentView.m in Sources */,
 				81BD9BC52E39DD2000769A95 /* UIView+WPFExtension.m in Sources */,
+				819598D23015F9DF004BD67A /* SegmentView.m in Sources */,
 				8117FE682E38C80500E7BD05 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
