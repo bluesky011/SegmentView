@@ -70,17 +70,16 @@
     return self.dataArray.count;
 }
 
-
 -(NSString *)segmentView:(SegmentView *)segmentView titleAtIndex:(NSInteger)index {
     NSString *title = self.dataArray[index];
     return title;
 }
 
-
-
 - (void)segmentView:(SegmentView *)segmentView didSelectItemAtIndex:(NSInteger)index {
     [self.scrollView scrollRectToVisible:CGRectMake(index*self.scrollView.width, 0, self.scrollView.width, self.scrollView.height) animated:NO];
 }
+
+
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     CGFloat width;

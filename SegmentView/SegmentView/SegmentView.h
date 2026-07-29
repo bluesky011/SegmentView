@@ -34,7 +34,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 - (void)segmentView:(SegmentView *)segmentView didSelectItemAtIndex:(NSInteger)index;
-- (CGFloat)segmentView:(SegmentView *)segmentView widthForItemAtIndex:(NSInteger)index;
 
 @end
 
